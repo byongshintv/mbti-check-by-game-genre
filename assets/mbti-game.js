@@ -1746,7 +1746,8 @@ const data = [
       ],
       "profile_image_url": null,
       "mbti_profile": "Platform Fighting",
-      "mbti_profile_korean": "플랫폼 파이팅"
+      "mbti_profile_korean": "플랫폼 파이팅",
+      "disabled": true
     },
     {
       "id": 516890,
@@ -1795,7 +1796,9 @@ const data = [
       ],
       "profile_image_url": null,
       "mbti_profile": "Karate",
-      "mbti_profile_korean": "카라테"
+      "mbti_profile_korean": "카라테",
+      "disabled": true
+
     },
     {
       "id": 516894,

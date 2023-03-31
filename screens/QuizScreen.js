@@ -15,14 +15,14 @@ function sampleArray(array,length){
   return result;
 }
 
-const QuizRoundSize = 3;
+const QuizRoundSize = 20;
 const typeConversionEntries = [ ['I','E'], ['N','S'], ['F','T'], ['P','J'], ]
 let MbtiRows = rawMbtiRows.filter( ({disabled, mbti_letter_stats}) => disabled !== true && mbti_letter_stats.length === 4);
 let sampledMbtiRows = sampleArray(MbtiRows,QuizRoundSize * 2);
 
 
 const QuizOptionList = styled.View`
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
   margin-top: 20px;
