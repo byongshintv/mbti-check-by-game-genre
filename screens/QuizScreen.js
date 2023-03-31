@@ -15,7 +15,7 @@ function sampleArray(array,length){
   return result;
 }
 
-const QuizRoundSize = 20;
+const QuizRoundSize = 15;
 const typeConversionEntries = [ ['I','E'], ['N','S'], ['F','T'], ['P','J'], ]
 let MbtiRows = rawMbtiRows.filter( ({disabled, mbti_letter_stats}) => disabled !== true && mbti_letter_stats.length === 4);
 let sampledMbtiRows = sampleArray(MbtiRows,QuizRoundSize * 2);
@@ -58,8 +58,7 @@ const QuizScreen = ({navigation}) => {
   // next로 가는 링크 작성 
   return (
     <Container>
-      <Typography> {round+1}번째 선택지입니다. </Typography>
-      <Typography> 좋아하는 장르를 골라주세요! </Typography>
+      <Typography> 좋아하는 장르를 골라주세요! ({round+1}/{QuizRoundSize})</Typography>
       <QuizOptionList>
         <QuizOption prop={sampledMbtiRows[round*2]} onClick={handleOptionClick} />
         <QuizOption prop={sampledMbtiRows[round*2 + 1]} onClick={handleOptionClick} />
