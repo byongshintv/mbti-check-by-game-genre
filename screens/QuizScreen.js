@@ -1,8 +1,7 @@
 import React from "react";
 import { Image } from "react-native";
 import { Container, Typography, Button } from './_atoms';
-// mbti-game.json 가져오기
-import rawMbtiRows from '../assets/mbti-game.json';
+import rawMbtiRows from '../assets/mbti-game';
 import { useState } from 'react';
 import styled from 'styled-components/native';
 
@@ -52,7 +51,6 @@ const QuizScreen = ({navigation}) => {
       setRound(0)
       // EI SN TF JP
       sampledMbtiRows = sampleArray(MbtiRows,QuizRoundSize * 2);
-      console.log( letterStock)
       return navigation.navigate('ResultScreen', { letterStock, round : QuizRoundSize });
     }
   }
@@ -70,18 +68,14 @@ const QuizScreen = ({navigation}) => {
   );
 }
 
-const CenteredButton = styled(Button)`
-  align-items: center;
-  justify-content: center;
-  width:250px;
-`;
-
-
+let defaultImage = require('../assets/game_default.png');
 const QuizOption = ({prop, onClick}) => {
   let {profile_image_url, mbti_profile, mbti_profile_korean, mbti_letter_stats} = prop;
+  if( profile_image_url === null ) profile_image_url = defaultImage;
+
   return (
     <Button onPress={() => onClick(mbti_letter_stats)} style={style.quizOption}>
-      <Image source={{uri: profile_image_url}} style={{width: 100, height: 100}} />
+      <Image source={ profile_image_url } style={{width: 100, height: 100}} />
       <Typography>{mbti_profile_korean}</Typography>
       <Typography style={style.smallTypo}>({mbti_profile})</Typography>
     </Button>
@@ -96,7 +90,7 @@ const style = {
     marginHorizontal: 10,
   },
   smallTypo: {
-    fontSize: "0.7em",
+    fontSize: 12,
   }
 }
 

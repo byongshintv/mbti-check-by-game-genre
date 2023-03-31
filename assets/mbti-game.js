@@ -1,4 +1,4 @@
-[
+const data = [
     {
       "id": 51125,
       "mbti_letter_stats": [
@@ -23,7 +23,7 @@
           "PercentageFloat": 0.9278350515463918
         }
       ],
-      "profile_image_url": "https://static1.personality-database.com/profile_images/8df75f8d265140389eadee0e3bbd0e0b.png",
+      "profile_image_url": require("./game/8df75f8d265140389eadee0e3bbd0e0b.png"),
       "mbti_profile": "Role-Playing Game",
       "mbti_profile_korean": "롤 플레잉 게임"
     },
@@ -51,7 +51,7 @@
           "PercentageFloat": 1
         }
       ],
-      "profile_image_url": "https://static1.personality-database.com/profile_images/0d7b39888ccf44fe8968715f4ab96233.png",
+      "profile_image_url": require("./game/0d7b39888ccf44fe8968715f4ab96233.png"),
       "mbti_profile": "Survival Sandbox",
       "mbti_profile_korean": "서바이벌 샌드박스"
     },
@@ -79,7 +79,7 @@
           "PercentageFloat": 0.9387755102040817
         }
       ],
-      "profile_image_url": "https://static1.personality-database.com/profile_images/15af4305292b4a68a9e3469aac184b69.png",
+      "profile_image_url": require("./game/15af4305292b4a68a9e3469aac184b69.png"),
       "mbti_profile": "Action-Adventure",
       "mbti_profile_korean": "액션 어드벤처"
     },
@@ -107,7 +107,7 @@
           "PercentageFloat": 0.9743589743589743
         }
       ],
-      "profile_image_url": "https://static1.personality-database.com/profile_images/3df5db30bb3a4d1bb7e3fd2f1b124cc9.png",
+      "profile_image_url": require("./game/3df5db30bb3a4d1bb7e3fd2f1b124cc9.png"),
       "mbti_profile": "Post-Apocalyptic",
       "mbti_profile_korean": "포스트 아포칼립스"
     },
@@ -135,7 +135,7 @@
           "PercentageFloat": 0.9411764705882353
         }
       ],
-      "profile_image_url": "https://static1.personality-database.com/profile_images/bead0932d3504304a8cbc9f7447771e0.png",
+      "profile_image_url": require("./game/bead0932d3504304a8cbc9f7447771e0.png"),
       "mbti_profile": "Metroidvania",
       "mbti_profile_korean": "메트로배니아"
     },
@@ -163,7 +163,7 @@
           "PercentageFloat": 0.8888888888888888
         }
       ],
-      "profile_image_url": "https://static1.personality-database.com/profile_images/65337eb8fc904f4c8c3c89aeea988c76.png",
+      "profile_image_url": require("./game/65337eb8fc904f4c8c3c89aeea988c76.png"),
       "mbti_profile": "MOBA",
       "mbti_profile_korean": "MOBA(AOS)"
     },
@@ -191,7 +191,7 @@
           "PercentageFloat": 0.875
         }
       ],
-      "profile_image_url": "https://static1.personality-database.com/profile_images/6489e9ff99514685b4c1c25ca843e252.png",
+      "profile_image_url": require("./game/6489e9ff99514685b4c1c25ca843e252.png"),
       "mbti_profile": "Indie games",
       "mbti_profile_korean": "인디 게임"
     },
@@ -219,7 +219,7 @@
           "PercentageFloat": 1
         }
       ],
-      "profile_image_url": "https://static1.personality-database.com/profile_images/f05b358e221341a59317fecb1d81a7c0.png",
+      "profile_image_url": require("./game/f05b358e221341a59317fecb1d81a7c0.png"),
       "mbti_profile": "Bullet Hell",
       "mbti_profile_korean": "탄막 슈팅"
     },
@@ -247,7 +247,7 @@
           "PercentageFloat": 0.952755905511811
         }
       ],
-      "profile_image_url": "https://static1.personality-database.com/profile_images/acaebf1d26794e39abb0e13501b644d9.png",
+      "profile_image_url": require("./game/acaebf1d26794e39abb0e13501b644d9.png"),
       "mbti_profile": "Strategy Games",
       "mbti_profile_korean": "전략 게임"
     },
@@ -275,7 +275,7 @@
           "PercentageFloat": 0.88
         }
       ],
-      "profile_image_url": "https://static1.personality-database.com/profile_images/f8dc5402fe8d4ea88d7b8bf53ebf08c1.png",
+      "profile_image_url": require("./game/f8dc5402fe8d4ea88d7b8bf53ebf08c1.png"),
       "mbti_profile": "Walking Simulators",
       "mbti_profile_korean": "워킹 시뮬레이터",
       "disabled": true
@@ -304,7 +304,7 @@
           "PercentageFloat": 0.9454545454545454
         }
       ],
-      "profile_image_url": "https://static1.personality-database.com/profile_images/8bc58b22b2a44521be05bc36533a2b18.png",
+      "profile_image_url": require("./game/8bc58b22b2a44521be05bc36533a2b18.png"),
       "mbti_profile": "Fighting Games",
       "mbti_profile_korean": "격투 게임"
     },
@@ -332,7 +332,7 @@
           "PercentageFloat": 0.9411764705882353
         }
       ],
-      "profile_image_url": "https://static1.personality-database.com/profile_images/b5017da22c4c4a09a72e416846107660.png",
+      "profile_image_url": require("./game/b5017da22c4c4a09a72e416846107660.png"),
       "mbti_profile": "Puzzle Games",
       "mbti_profile_korean": "퍼즐 게임"
     },
@@ -360,7 +360,7 @@
           "PercentageFloat": 0.8604651162790697
         }
       ],
-      "profile_image_url": "https://static1.personality-database.com/profile_images/22f3925a27894c8ebce2f93aee6dd186.png",
+      "profile_image_url": require("./game/22f3925a27894c8ebce2f93aee6dd186.png"),
       "mbti_profile": "Survival Horror",
       "mbti_profile_korean": "서바이벌 호러"
     },
@@ -388,7 +388,7 @@
           "PercentageFloat": 0.6153846153846154
         }
       ],
-      "profile_image_url": "https://static1.personality-database.com/profile_images/a27e93a270064c25939ebef455e9c569.png",
+      "profile_image_url": require("./game/a27e93a270064c25939ebef455e9c569.png"),
       "mbti_profile": "Interactive Cinema",
       "mbti_profile_korean": "인터랙티브 시네마"
     },
@@ -416,7 +416,7 @@
           "PercentageFloat": 0.5151515151515151
         }
       ],
-      "profile_image_url": "https://static1.personality-database.com/profile_images/c37e43ad332240859e917e339afa507f.png",
+      "profile_image_url": require("./game/c37e43ad332240859e917e339afa507f.png"),
       "mbti_profile": "Idol Games",
       "mbti_profile_korean": "아이돌 게임"
     },
@@ -444,7 +444,7 @@
           "PercentageFloat": 0.55
         }
       ],
-      "profile_image_url": "https://static1.personality-database.com/profile_images/f6f2413820434ab38e6c32c4d397f613.png",
+      "profile_image_url": require("./game/f6f2413820434ab38e6c32c4d397f613.png"),
       "mbti_profile": "Trivia Games",
       "mbti_profile_korean": "퀴즈 게임"
     },
@@ -472,7 +472,7 @@
           "PercentageFloat": 1
         }
       ],
-      "profile_image_url": "",
+      "profile_image_url": null,
       "mbti_profile": "Anime Fighter",
       "mbti_profile_korean": "애니메이션 파이터",
       "disabled": true
@@ -501,7 +501,7 @@
           "PercentageFloat": 0.7857142857142857
         }
       ],
-      "profile_image_url": "https://static1.personality-database.com/profile_images/1c0f955a0c0848e29b4dfc6aea59a335.png",
+      "profile_image_url": require("./game/1c0f955a0c0848e29b4dfc6aea59a335.png"),
       "mbti_profile": "Tactical RPG",
       "mbti_profile_korean": "택티컬 RPG"
     },
@@ -529,7 +529,7 @@
           "PercentageFloat": 1
         }
       ],
-      "profile_image_url": "https://static1.personality-database.com/profile_images/618c5de22f10461cbeb3fe9be2165658.png",
+      "profile_image_url": require("./game/618c5de22f10461cbeb3fe9be2165658.png"),
       "mbti_profile": "Puzzle Platformer",
       "mbti_profile_korean": "퍼즐 플랫포머",
       "disabled": true
@@ -558,7 +558,7 @@
           "PercentageFloat": 1
         }
       ],
-      "profile_image_url": "",
+      "profile_image_url": null,
       "mbti_profile": "City Building Game",
       "mbti_profile_korean": "도시 건설 게임"
     },
@@ -586,7 +586,7 @@
           "PercentageFloat": 1
         }
       ],
-      "profile_image_url": "https://static1.personality-database.com/profile_images/e79ece37053f4f5999c6b6d54cd8d7c8.png",
+      "profile_image_url": require("./game/e79ece37053f4f5999c6b6d54cd8d7c8.png"),
       "mbti_profile": "Shooters",
       "mbti_profile_korean": "FPS"
     },
@@ -614,7 +614,7 @@
           "PercentageFloat": 0.782608695652174
         }
       ],
-      "profile_image_url": "https://static1.personality-database.com/profile_images/d8170625636f4b3dad2babe5f4a0bf72.png",
+      "profile_image_url": require("./game/d8170625636f4b3dad2babe5f4a0bf72.png"),
       "mbti_profile": "Souls Like Games",
       "mbti_profile_korean": "소울 라이크"
     },
@@ -642,7 +642,7 @@
           "PercentageFloat": 0.9358974358974359
         }
       ],
-      "profile_image_url": "https://static1.personality-database.com/profile_images/c7d302f5c06e49c78eef55ddb9cde2fb.png",
+      "profile_image_url": require("./game/c7d302f5c06e49c78eef55ddb9cde2fb.png"),
       "mbti_profile": "Dating Sim",
       "mbti_profile_korean": "미연시"
     },
@@ -670,7 +670,7 @@
           "PercentageFloat": 0.9102564102564102
         }
       ],
-      "profile_image_url": "https://static1.personality-database.com/profile_images/96587b3d033a4a4d80c201a86c89076d.png",
+      "profile_image_url": require("./game/96587b3d033a4a4d80c201a86c89076d.png"),
       "mbti_profile": "Visual Novels",
       "mbti_profile_korean": "비주얼 노벨"
     },
@@ -698,7 +698,7 @@
           "PercentageFloat": 0.92
         }
       ],
-      "profile_image_url": "https://static1.personality-database.com/profile_images/dcc17a7942cb46d7bd012efa6faaa03e.png",
+      "profile_image_url": require("./game/dcc17a7942cb46d7bd012efa6faaa03e.png"),
       "mbti_profile": "MMORPGs",
       "mbti_profile_korean": "MMORPG"
     },
@@ -726,7 +726,7 @@
           "PercentageFloat": 0.9863013698630136
         }
       ],
-      "profile_image_url": "https://static1.personality-database.com/profile_images/c6e349a8ccf54250833d1067025f9bc6.png",
+      "profile_image_url": require("./game/c6e349a8ccf54250833d1067025f9bc6.png"),
       "mbti_profile": "Sandbox",
       "mbti_profile_korean": "샌드박스"
     },
@@ -754,7 +754,7 @@
           "PercentageFloat": 0.8260869565217391
         }
       ],
-      "profile_image_url": "https://static1.personality-database.com/profile_images/f8e6c78e4848456baa18bc11482aeec0.png",
+      "profile_image_url": require("./game/f8e6c78e4848456baa18bc11482aeec0.png"),
       "mbti_profile": "Tactical Shooter",
       "mbti_profile_korean": "택티컬 슈팅"
     },
@@ -782,7 +782,7 @@
           "PercentageFloat": 0.7321428571428571
         }
       ],
-      "profile_image_url": "https://static1.personality-database.com/profile_images/4ed0d919c913449ca3378e1a5c8ccb67.png",
+      "profile_image_url": require("./game/4ed0d919c913449ca3378e1a5c8ccb67.png"),
       "mbti_profile": "Choice Based",
       "mbti_profile_korean": "선택 기반",
       
@@ -812,7 +812,7 @@
           "PercentageFloat": 0.7755102040816326
         }
       ],
-      "profile_image_url": "https://static1.personality-database.com/profile_images/9562552a7a7d428192d501521c3a59d3.png",
+      "profile_image_url": require("./game/9562552a7a7d428192d501521c3a59d3.png"),
       "mbti_profile": "Stealth-Based Game",
       "mbti_profile_korean": "잠입 액션"
     },
@@ -840,7 +840,7 @@
           "PercentageFloat": 0.9333333333333333
         }
       ],
-      "profile_image_url": "https://static1.personality-database.com/profile_images/21849f2aa1fc4544a87caea95fe631e3.png",
+      "profile_image_url": require("./game/21849f2aa1fc4544a87caea95fe631e3.png"),
       "mbti_profile": "Rhythm",
       "mbti_profile_korean": "리듬 게임"
     },
@@ -868,7 +868,7 @@
           "PercentageFloat": 0.9166666666666666
         }
       ],
-      "profile_image_url": "https://static1.personality-database.com/profile_images/32b153303318461a8827595625e46cc7.png",
+      "profile_image_url": require("./game/32b153303318461a8827595625e46cc7.png"),
       "mbti_profile": "Racing Games",
       "mbti_profile_korean": "레이싱 게임"
     },
@@ -896,7 +896,7 @@
           "PercentageFloat": 1
         }
       ],
-      "profile_image_url": "https://static1.personality-database.com/profile_images/b86c26e6af494168abd981ad762361c6.png",
+      "profile_image_url": require("./game/b86c26e6af494168abd981ad762361c6.png"),
       "mbti_profile": "Roguelike",
       "mbti_profile_korean": "로그 라이크"
     },
@@ -924,7 +924,7 @@
           "PercentageFloat": 0.9
         }
       ],
-      "profile_image_url": "https://static1.personality-database.com/profile_images/1eb53b7d9fe14c41845b708edc0ec672.png",
+      "profile_image_url": require("./game/1eb53b7d9fe14c41845b708edc0ec672.png"),
       "mbti_profile": "RTS",
       "mbti_profile_korean": "RTS"
     },
@@ -952,7 +952,7 @@
           "PercentageFloat": 0.38095238095238093
         }
       ],
-      "profile_image_url": "https://static1.personality-database.com/profile_images/c788d15afe8442abab599113190da814.png",
+      "profile_image_url": require("./game/c788d15afe8442abab599113190da814.png"),
       "mbti_profile": "Platform Game",
       "mbti_profile_korean": "플랫포머"
     },
@@ -980,7 +980,7 @@
           "PercentageFloat": 0.9259259259259259
         }
       ],
-      "profile_image_url": "https://static1.personality-database.com/profile_images/d4db71c61c6d409faa6a039ccca3b56a.png",
+      "profile_image_url": require("./game/d4db71c61c6d409faa6a039ccca3b56a.png"),
       "mbti_profile": "Sports Games",
       "mbti_profile_korean": "스포츠 게임"
     },
@@ -1008,7 +1008,7 @@
           "PercentageFloat": 0.8148148148148148
         }
       ],
-      "profile_image_url": "https://static1.personality-database.com/profile_images/8ced6fce113f4f268603bd40c5ce321c.png",
+      "profile_image_url": require("./game/8ced6fce113f4f268603bd40c5ce321c.png"),
       "mbti_profile": "Simulation Games",
       "mbti_profile_korean": "시뮬레이션 게임"
     },
@@ -1036,7 +1036,7 @@
           "PercentageFloat": 0.8333333333333334
         }
       ],
-      "profile_image_url": "https://static1.personality-database.com/profile_images/615d96ff8f9d4469b3541351459712f4.png",
+      "profile_image_url": require("./game/615d96ff8f9d4469b3541351459712f4.png"),
       "mbti_profile": "Tower Defense",
       "mbti_profile_korean": "타워 디펜스"
     },
@@ -1064,7 +1064,7 @@
           "PercentageFloat": 0.9230769230769231
         }
       ],
-      "profile_image_url": "https://static1.personality-database.com/profile_images/9651e9e5bb5e4a4dac44be56f7a29c7d.png",
+      "profile_image_url": require("./game/9651e9e5bb5e4a4dac44be56f7a29c7d.png"),
       "mbti_profile": "LEGO games",
       "mbti_profile_korean": "레고 게임",
       
@@ -1094,7 +1094,7 @@
           "PercentageFloat": 0.9
         }
       ],
-      "profile_image_url": "https://static1.personality-database.com/profile_images/56b9fdce8bed4a2fa61b038d9e9237d5.png",
+      "profile_image_url": require("./game/56b9fdce8bed4a2fa61b038d9e9237d5.png"),
       "mbti_profile": "JRPG",
       "mbti_profile_korean": "JRPG"
     },
@@ -1122,7 +1122,7 @@
           "PercentageFloat": 0.9285714285714286
         }
       ],
-      "profile_image_url": "https://static1.personality-database.com/profile_images/85d69b508a5148409b31076b9d86683b.png",
+      "profile_image_url": require("./game/85d69b508a5148409b31076b9d86683b.png"),
       "mbti_profile": "Hack and Slash",
       "mbti_profile_korean": "핵 앤 슬래시"
     },
@@ -1150,7 +1150,7 @@
           "PercentageFloat": 0.8888888888888888
         }
       ],
-      "profile_image_url": "https://static1.personality-database.com/profile_images/206dbfb860314fe6aa33756a6e6891fe.png",
+      "profile_image_url": require("./game/206dbfb860314fe6aa33756a6e6891fe.png"),
       "mbti_profile": "Immersive Sim",
       "mbti_profile_korean": "이머시브 심"
     },
@@ -1178,7 +1178,7 @@
           "PercentageFloat": 0.96875
         }
       ],
-      "profile_image_url": "https://static1.personality-database.com/profile_images/fa0ec3b15eef4da4935025b8a1f981ae.png",
+      "profile_image_url": require("./game/fa0ec3b15eef4da4935025b8a1f981ae.png"),
       "mbti_profile": "Beat 'em Up",
       "mbti_profile_korean": "벨트스크롤",
       
@@ -1208,7 +1208,7 @@
           "PercentageFloat": 0.96
         }
       ],
-      "profile_image_url": "https://static1.personality-database.com/profile_images/7c291fdc5a8e475295ca14fac7c00582.png",
+      "profile_image_url": require("./game/7c291fdc5a8e475295ca14fac7c00582.png"),
       "mbti_profile": "Point-and-Click Adventure Games",
       "mbti_profile_korean": "포인트 앤 클릭 어드벤처 게임",
       
@@ -1238,7 +1238,7 @@
           "PercentageFloat": 0.9375
         }
       ],
-      "profile_image_url": "https://static1.personality-database.com/profile_images/4b8bbae8b3bb4e2b863fd0b21b26e9bf.png",
+      "profile_image_url": require("./game/4b8bbae8b3bb4e2b863fd0b21b26e9bf.png"),
       "mbti_profile": "Battle Royale",
       "mbti_profile_korean": "배틀 로얄"
     },
@@ -1266,7 +1266,7 @@
           "PercentageFloat": 0.8666666666666667
         }
       ],
-      "profile_image_url": "https://static1.personality-database.com/profile_images/f9f9e530e56942f191e3c38daa1f773b.png",
+      "profile_image_url": require("./game/f9f9e530e56942f191e3c38daa1f773b.png"),
       "mbti_profile": "Action RPG",
       "mbti_profile_korean": "액션 롤플레잉"
     },
@@ -1294,7 +1294,7 @@
           "PercentageFloat": 1
         }
       ],
-      "profile_image_url": "https://static1.personality-database.com/profile_images/be161c6ce72e4cdc98f46bf30375f1a8.png",
+      "profile_image_url": require("./game/be161c6ce72e4cdc98f46bf30375f1a8.png"),
       "mbti_profile": "Farming Simulators",
       "mbti_profile_korean": "농업 시뮬레이터"
     },
@@ -1322,7 +1322,7 @@
           "PercentageFloat": 1
         }
       ],
-      "profile_image_url": "https://static1.personality-database.com/profile_images/429d6b41ddf04db5acb7d4779c1ce8c3.png",
+      "profile_image_url": require("./game/429d6b41ddf04db5acb7d4779c1ce8c3.png"),
       "mbti_profile": "Sandbox RPG",
       "mbti_profile_korean": "샌드박스 RPG"
     },
@@ -1350,7 +1350,7 @@
           "PercentageFloat": 0.6
         }
       ],
-      "profile_image_url": "",
+      "profile_image_url": null,
       "mbti_profile": "Hidden Object Games",
       "mbti_profile_korean": "숨겨진 개체 게임",
       "disabled": true
@@ -1358,7 +1358,7 @@
     {
       "id": 516876,
       "mbti_letter_stats": [],
-      "profile_image_url": "",
+      "profile_image_url": null,
       "mbti_profile": "Action horror",
       "mbti_profile_korean": "액션 호러",
       "disabled": true
@@ -1387,7 +1387,7 @@
           "PercentageFloat": 0.9230769230769231
         }
       ],
-      "profile_image_url": "https://static1.personality-database.com/profile_images/45740aa3701c4fbcb3b1aa69eba02fc1.png",
+      "profile_image_url": require("./game/45740aa3701c4fbcb3b1aa69eba02fc1.png"),
       "mbti_profile": "Life Simulation",
       "mbti_profile_korean": "생활 시뮬레이션"
     },
@@ -1415,7 +1415,7 @@
           "PercentageFloat": 1
         }
       ],
-      "profile_image_url": "https://static1.personality-database.com/profile_images/c686eb3d85ea42f49056891452b46ef5.png",
+      "profile_image_url": require("./game/c686eb3d85ea42f49056891452b46ef5.png"),
       "mbti_profile": "Graphic Novels",
       "mbti_profile_korean": "그래픽 노블"
     },
@@ -1443,7 +1443,7 @@
           "PercentageFloat": 0.8
         }
       ],
-      "profile_image_url": "",
+      "profile_image_url": null,
       "mbti_profile": "Collectible Card Games",
       "mbti_profile_korean": "카드 수집게임"
     },
@@ -1471,7 +1471,7 @@
           "PercentageFloat": 1
         }
       ],
-      "profile_image_url": "https://static1.personality-database.com/profile_images/cabf92f5ada64379a978a90b2aa52b34.png",
+      "profile_image_url": require("./game/cabf92f5ada64379a978a90b2aa52b34.png"),
       "mbti_profile": "Gambling Games",
       "mbti_profile_korean": "도박 게임"
     },
@@ -1499,7 +1499,7 @@
           "PercentageFloat": 0.75
         }
       ],
-      "profile_image_url": "",
+      "profile_image_url": null,
       "mbti_profile": "Idle Games",
       "mbti_profile_korean": "방치형 게임"
     },
@@ -1527,7 +1527,7 @@
           "PercentageFloat": 1
         }
       ],
-      "profile_image_url": "",
+      "profile_image_url": null,
       "mbti_profile": "War Games",
       "mbti_profile_korean": "전쟁 게임"
     },
@@ -1555,7 +1555,7 @@
           "PercentageFloat": 1
         }
       ],
-      "profile_image_url": "https://static1.personality-database.com/profile_images/8259f8aed213432290620c41ba9e6fea.png",
+      "profile_image_url": require("./game/8259f8aed213432290620c41ba9e6fea.png"),
       "mbti_profile": "Virtual Reality (VR)",
       "mbti_profile_korean": "가상 현실(VR)"
     },
@@ -1583,7 +1583,7 @@
           "PercentageFloat": 0.5
         }
       ],
-      "profile_image_url": "",
+      "profile_image_url": null,
       "mbti_profile": "Danmaku / Bullet Hell",
       "mbti_profile_korean": "탄막 / 총알 지옥"
     },
@@ -1611,7 +1611,7 @@
           "PercentageFloat": 1
         }
       ],
-      "profile_image_url": "https://static1.personality-database.com/profile_images/89ffbc54fc6a426580b623c30e0843f1.png",
+      "profile_image_url": require("./game/89ffbc54fc6a426580b623c30e0843f1.png"),
       "mbti_profile": "Pinball",
       "mbti_profile_korean": "핀볼"
     },
@@ -1639,49 +1639,49 @@
           "PercentageFloat": 1
         }
       ],
-      "profile_image_url": "https://static1.personality-database.com/profile_images/ad2a9e933b76499b946883d623ee44ce.png",
+      "profile_image_url": require("./game/ad2a9e933b76499b946883d623ee44ce.png"),
       "mbti_profile": "Action Game",
       "mbti_profile_korean": "액션 게임"
     },
     {
       "id": 516877,
       "mbti_letter_stats": [],
-      "profile_image_url": "",
+      "profile_image_url": null,
       "mbti_profile": "Ball and Paddle",
       "mbti_profile_korean": "공과 패들"
     },
     {
       "id": 516878,
       "mbti_letter_stats": [],
-      "profile_image_url": "",
+      "profile_image_url": null,
       "mbti_profile": "Block-Breaking Game",
       "mbti_profile_korean": "블록 깨기 게임"
     },
     {
       "id": 516881,
       "mbti_letter_stats": [],
-      "profile_image_url": "",
+      "profile_image_url": null,
       "mbti_profile": "Belt Scroller",
       "mbti_profile_korean": "벨트 스크롤러"
     },
     {
       "id": 516882,
       "mbti_letter_stats": [],
-      "profile_image_url": "",
+      "profile_image_url": null,
       "mbti_profile": "Crowd-combat",
       "mbti_profile_korean": "군중 전투"
     },
     {
       "id": 516883,
       "mbti_letter_stats": [],
-      "profile_image_url": "",
+      "profile_image_url": null,
       "mbti_profile": "Dodging & Catching",
       "mbti_profile_korean": "회피 및 잡기"
     },
     {
       "id": 516884,
       "mbti_letter_stats": [],
-      "profile_image_url": "https://static1.personality-database.com/profile_images/40c2573d24fb4d19b1793ed201e965c8.png",
+      "profile_image_url": require("./game/40c2573d24fb4d19b1793ed201e965c8.png"),
       "mbti_profile": "Elimination Platformer",
       "mbti_profile_korean": "엘리미네이션 플랫포머"
     },
@@ -1709,14 +1709,14 @@
           "PercentageFloat": 0.3333333333333333
         }
       ],
-      "profile_image_url": "",
+      "profile_image_url": null,
       "mbti_profile": "3D Fighting",
       "mbti_profile_korean": "3D 파이팅"
     },
     {
       "id": 516887,
       "mbti_letter_stats": [],
-      "profile_image_url": "",
+      "profile_image_url": null,
       "mbti_profile": "Arena Fighting",
       "mbti_profile_korean": "아레나 파이팅"
     },
@@ -1744,28 +1744,28 @@
           "PercentageFloat": 1
         }
       ],
-      "profile_image_url": "",
+      "profile_image_url": null,
       "mbti_profile": "Platform Fighting",
       "mbti_profile_korean": "플랫폼 파이팅"
     },
     {
       "id": 516890,
       "mbti_letter_stats": [],
-      "profile_image_url": "",
+      "profile_image_url": null,
       "mbti_profile": "Martial Arts",
       "mbti_profile_korean": "무술"
     },
     {
       "id": 516891,
       "mbti_letter_stats": [],
-      "profile_image_url": "",
+      "profile_image_url": null,
       "mbti_profile": "Boxing Games",
       "mbti_profile_korean": "복싱 게임"
     },
     {
       "id": 516892,
       "mbti_letter_stats": [],
-      "profile_image_url": "",
+      "profile_image_url": null,
       "mbti_profile": "Fencing",
       "mbti_profile_korean": "펜싱"
     },
@@ -1793,7 +1793,7 @@
           "PercentageFloat": 1
         }
       ],
-      "profile_image_url": "",
+      "profile_image_url": null,
       "mbti_profile": "Karate",
       "mbti_profile_korean": "카라테"
     },
@@ -1821,63 +1821,63 @@
           "PercentageFloat": 1
         }
       ],
-      "profile_image_url": "",
+      "profile_image_url": null,
       "mbti_profile": "Kickboxing Games",
       "mbti_profile_korean": "킥복싱 게임"
     },
     {
       "id": 516895,
       "mbti_letter_stats": [],
-      "profile_image_url": "",
+      "profile_image_url": null,
       "mbti_profile": "Mixed Martial Arts Games",
       "mbti_profile_korean": "종합 격투기 게임"
     },
     {
       "id": 516896,
       "mbti_letter_stats": [],
-      "profile_image_url": "",
+      "profile_image_url": null,
       "mbti_profile": "Sumo Games",
       "mbti_profile_korean": "스모 게임"
     },
     {
       "id": 516897,
       "mbti_letter_stats": [],
-      "profile_image_url": "",
+      "profile_image_url": null,
       "mbti_profile": "Pro Wrestling Games",
       "mbti_profile_korean": "프로 레슬링 게임"
     },
     {
       "id": 516898,
       "mbti_letter_stats": [],
-      "profile_image_url": "",
+      "profile_image_url": null,
       "mbti_profile": "Fumblecore",
       "mbti_profile_korean": "펌블코어"
     },
     {
       "id": 516900,
       "mbti_letter_stats": [],
-      "profile_image_url": "",
+      "profile_image_url": null,
       "mbti_profile": "Launch",
       "mbti_profile_korean": "시작하다"
     },
     {
       "id": 516901,
       "mbti_letter_stats": [],
-      "profile_image_url": "",
+      "profile_image_url": null,
       "mbti_profile": "Masocore Platformer",
       "mbti_profile_korean": "Masocore 플랫포머"
     },
     {
       "id": 516902,
       "mbti_letter_stats": [],
-      "profile_image_url": "",
+      "profile_image_url": null,
       "mbti_profile": "Obstacle Course",
       "mbti_profile_korean": "장애물 코스"
     },
     {
       "id": 516903,
       "mbti_letter_stats": [],
-      "profile_image_url": "",
+      "profile_image_url": null,
       "mbti_profile": "Arena Shooter",
       "mbti_profile_korean": "아레나 슈터"
     },
@@ -1905,14 +1905,14 @@
           "PercentageFloat": 0.8
         }
       ],
-      "profile_image_url": "https://static1.personality-database.com/profile_images/2f8a639e684a4afc8b304732d99b9b27.png",
+      "profile_image_url": require("./game/2f8a639e684a4afc8b304732d99b9b27.png"),
       "mbti_profile": "First-Person Shooter",
       "mbti_profile_korean": "1인칭 슈팅 게임"
     },
     {
       "id": 516905,
       "mbti_letter_stats": [],
-      "profile_image_url": "",
+      "profile_image_url": null,
       "mbti_profile": "MMOFPS",
       "mbti_profile_korean": "MMOFPS"
     },
@@ -1940,7 +1940,7 @@
           "PercentageFloat": 1
         }
       ],
-      "profile_image_url": "",
+      "profile_image_url": null,
       "mbti_profile": "Hero Shooter",
       "mbti_profile_korean": "히어로 슈터"
     },
@@ -1968,7 +1968,7 @@
           "PercentageFloat": 1
         }
       ],
-      "profile_image_url": "https://static1.personality-database.com/profile_images/6caf947fa715431a8a75444f3d339309.png",
+      "profile_image_url": require("./game/6caf947fa715431a8a75444f3d339309.png"),
       "mbti_profile": "Looter Shooter",
       "mbti_profile_korean": "루터 슈터"
     },
@@ -1996,7 +1996,7 @@
           "PercentageFloat": 1
         }
       ],
-      "profile_image_url": "",
+      "profile_image_url": null,
       "mbti_profile": "Paintball Games",
       "mbti_profile_korean": "페인트볼 게임"
     },
@@ -2024,35 +2024,35 @@
           "PercentageFloat": 1
         }
       ],
-      "profile_image_url": "https://static1.personality-database.com/profile_images/43648f5a45c5476cacffa45ce71bc63f.png",
+      "profile_image_url": require("./game/43648f5a45c5476cacffa45ce71bc63f.png"),
       "mbti_profile": "Shoot 'Em Up",
       "mbti_profile_korean": "쏴버려"
     },
     {
       "id": 516910,
       "mbti_letter_stats": [],
-      "profile_image_url": "",
+      "profile_image_url": null,
       "mbti_profile": "Fixed Shooter",
       "mbti_profile_korean": "고정 슈터"
     },
     {
       "id": 516911,
       "mbti_letter_stats": [],
-      "profile_image_url": "",
+      "profile_image_url": null,
       "mbti_profile": "Tube Shooter",
       "mbti_profile_korean": "튜브 슈터"
     },
     {
       "id": 516912,
       "mbti_letter_stats": [],
-      "profile_image_url": "",
+      "profile_image_url": null,
       "mbti_profile": "Multidirectional Shooter",
       "mbti_profile_korean": "다방향 슈터"
     },
     {
       "id": 516913,
       "mbti_letter_stats": [],
-      "profile_image_url": "",
+      "profile_image_url": null,
       "mbti_profile": "Twin-Stick Shooter",
       "mbti_profile_korean": "트윈 스틱 슈터"
     },
@@ -2080,7 +2080,7 @@
           "PercentageFloat": 1
         }
       ],
-      "profile_image_url": "https://static1.personality-database.com/profile_images/18331c16be274d749b7d1317ffcf82f0.png",
+      "profile_image_url": require("./game/18331c16be274d749b7d1317ffcf82f0.png"),
       "mbti_profile": "Rail Shooter",
       "mbti_profile_korean": "레일 슈터"
     },
@@ -2108,35 +2108,35 @@
           "PercentageFloat": 1
         }
       ],
-      "profile_image_url": "https://static1.personality-database.com/profile_images/64038b35b3874c369a726661724ac482.png",
+      "profile_image_url": require("./game/64038b35b3874c369a726661724ac482.png"),
       "mbti_profile": "Run-and-Gun",
       "mbti_profile_korean": "런앤건"
     },
     {
       "id": 516916,
       "mbti_letter_stats": [],
-      "profile_image_url": "",
+      "profile_image_url": null,
       "mbti_profile": "Scrolling Shooter",
       "mbti_profile_korean": "스크롤링 슈터"
     },
     {
       "id": 516918,
       "mbti_letter_stats": [],
-      "profile_image_url": "",
+      "profile_image_url": null,
       "mbti_profile": "Shooting Gallery",
       "mbti_profile_korean": "사격장"
     },
     {
       "id": 516919,
       "mbti_letter_stats": [],
-      "profile_image_url": "",
+      "profile_image_url": null,
       "mbti_profile": "Cabal Shooter",
       "mbti_profile_korean": "카발 슈터"
     },
     {
       "id": 516920,
       "mbti_letter_stats": [],
-      "profile_image_url": "https://static1.personality-database.com/profile_images/8888bf79497e43c59b647d905a8e46fe.png",
+      "profile_image_url": require("./game/8888bf79497e43c59b647d905a8e46fe.png"),
       "mbti_profile": "Light Gun Shooter",
       "mbti_profile_korean": "라이트 건 슈터"
     },
@@ -2164,7 +2164,7 @@
           "PercentageFloat": 1
         }
       ],
-      "profile_image_url": "https://static1.personality-database.com/profile_images/6ae70835d27243c7b48060a1721de002.png",
+      "profile_image_url": require("./game/6ae70835d27243c7b48060a1721de002.png"),
       "mbti_profile": "Third-Person Shooter",
       "mbti_profile_korean": "3인칭 슈팅 게임"
     },
@@ -2192,7 +2192,7 @@
           "PercentageFloat": 1
         }
       ],
-      "profile_image_url": "https://static1.personality-database.com/profile_images/68470bbf70fb4a8686518a1ef745aff8.png",
+      "profile_image_url": require("./game/68470bbf70fb4a8686518a1ef745aff8.png"),
       "mbti_profile": "Collect-a-Thon Platformer",
       "mbti_profile_korean": "컬렉터톤 플랫포머"
     },
@@ -2220,7 +2220,7 @@
           "PercentageFloat": 1
         }
       ],
-      "profile_image_url": "",
+      "profile_image_url": null,
       "mbti_profile": "Farm Life Sim",
       "mbti_profile_korean": "농장 생활 심"
     },
@@ -2248,7 +2248,7 @@
           "PercentageFloat": 1
         }
       ],
-      "profile_image_url": "",
+      "profile_image_url": null,
       "mbti_profile": "Mods",
       "mbti_profile_korean": "모드",
       "disabled": true
@@ -2278,7 +2278,7 @@
           "PercentageFloat": 1
         }
       ],
-      "profile_image_url": "https://static1.personality-database.com/profile_images/8cd6fff154f948cf90845e543ae29280.png",
+      "profile_image_url": require("./game/8cd6fff154f948cf90845e543ae29280.png"),
       "mbti_profile": "Adventure Game",
       "mbti_profile_korean": "어드벤처 게임"
     },
@@ -2306,7 +2306,7 @@
           "PercentageFloat": 1
         }
       ],
-      "profile_image_url": "https://static1.personality-database.com/profile_images/edd70c3cf4b947e281e47f012b1494e6.png",
+      "profile_image_url": require("./game/edd70c3cf4b947e281e47f012b1494e6.png"),
       "mbti_profile": "Cinematic Platform Game",
       "mbti_profile_korean": "시네마틱 플랫폼 게임"
     },
@@ -2334,7 +2334,7 @@
           "PercentageFloat": 1
         }
       ],
-      "profile_image_url": "https://static1.personality-database.com/profile_images/e22d1e89be6841ca82e519e266846bd5.png",
+      "profile_image_url": require("./game/e22d1e89be6841ca82e519e266846bd5.png"),
       "mbti_profile": "Stylish Action",
       "mbti_profile_korean": "스타일리쉬 액션"
     },
@@ -2362,10 +2362,12 @@
           "PercentageFloat": 1
         }
       ],
-      "profile_image_url": "https://static1.personality-database.com/profile_images/99736747b2204984a2534d90be150936.png",
+      "profile_image_url": require("./game/99736747b2204984a2534d90be150936.png"),
       "mbti_profile": "Cute 'em Up",
       "mbti_profile_korean": "큐엠업",
       
       "disabled": true
     }
   ]
+
+export default data;
